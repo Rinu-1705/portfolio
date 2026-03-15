@@ -20,7 +20,7 @@ This repository contains a portfolio landing page showcasing skills, projects, a
   - Contact
 - `style.css` — Styling for layout, typography, and components
 
-## ▶Running Locally
+## Running Locally
 1. Clone this repo:
    ```bash
    git clone https://github.com/Rinu-1705/portfolio.git
