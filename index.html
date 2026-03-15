@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinu | Portfolio</title>
+
+    <!-- Google Fonts (Anime + Professional Mix) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-area">
+            <span class="logo-symbol"></span>
+            <span class="logo-text">RM</span>
+        </div>
+        <nav aria-label="Primary navigation">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Hi, I’m <span class="accent">Rinu</span></h1>
+                <p class="hero-subtitle">
+                    A <strong>web-developer</strong> crafting scalable, ethical, and digital experiences.
+                </p>
+                <p class="hero-note">
+                    <time datetime="2025-12-16">Available for collaborations</time> — remote & on‑site.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn ghost">Contact Me</a>
+                </div>
+            </div>
+            <aside class="hero-aside" aria-label="Profile snapshot">
+                <figure class="avatar-frame">
+                    <img src="C:\Users\riumi\Downloads\profile.jpg" alt="Profile picture" class="avatar-circle">
+                </figure>
+                <div class="status-card">
+                    <p class="status-title">Current Focus</p>
+                    <p class="status-body">Multilingual assistive tech & clean system design.</p>
+                    <label for="focus-meter">Energy level:</label>
+                    <meter id="focus-meter" min="0" max="100" value="82">82%</meter>
+                </div>
+            </aside>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="panel" aria-labelledby="about-title">
+            <header class="panel-header">
+                <h2 id="about-title">About me</h2>
+                <p class="panel-tagline">Calm logic. Bold aesthetics. Real impact.</p>
+            </header>
+            <article class="panel-body">
+                <p>
+                    I architect, deploy, and document full‑stack systems with a strong focus on accessibility, scalability, and ethics.
+                    Inspired by anime visual storytelling, I blend clean interfaces with subtle, expressive motion.
+                </p>
+                <p>
+                    From <em>assistive technology</em> to <em>analytics dashboards</em>, I emphasize reproducible solutions, modular code, and
+                    clear communication tailored to diverse teams.
+                </p>
+                <details class="inline-details">
+                    <summary>More about my workflow</summary>
+                    <p>
+                        I start with user journeys, then evolve them into modular APIs, responsive frontends, and transparent documentation.
+                        I enjoy mentoring, code reviews, and turning complex ideas into approachable visuals.
+                    </p>
+                </details>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="panel" aria-labelledby="skills-title">
+            <header class="panel-header">
+                <h2 id="skills-title">Skills</h2>
+                <p class="panel-tagline">Engineering discipline with flair.</p>
+            </header>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Full‑stack development</h3>
+                    <ul>
+                        <li>Architecting RESTful & modular APIs</li>
+                        <li>Responsive, interactive UI with HTML, CSS, JS</li>
+                        <li>Python / C++ for algorithmic problem solving</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>System design & documentation</h3>
+                    <ul>
+                        <li>ER diagrams & schema design</li>
+                        <li>Scalable and ethical architectures</li>
+                        <li>Report & presentation‑ready documentation</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Assistive & multilingual tech</h3>
+                    <ul>
+                        <li>Voice‑driven UX & accessibility focus</li>
+                        <li>Multilingual flows & inclusive design</li>
+                        <li>Open‑source collaboration and tooling</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="progress-wrapper">
+                <p class="progress-label">Current learning arc: Advanced animations & micro‑interactions</p>
+                <progress value="60" max="100"></progress>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="panel" aria-labelledby="projects-title">
+            <header class="panel-header">
+                <h2 id="projects-title">Projects</h2>
+                <p class="panel-tagline">Selected work with a subtle anime glow.</p>
+            </header>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <header>
+                        <h3>Voice‑controlled Wheelchair Assistant</h3>
+                        <p class="project-type">Assistive Tech • Mobile + Hardware</p>
+                    </header>
+                    <p>
+                        A voice‑controlled mobility assistant with multilingual support and a companion mobile app for caregivers,
+                        designed with reliability and empathy at its core.
+                    </p>
+                    <footer class="project-footer">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Android</span>
+                        <span class="tech-pill">Cloud</span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <h3>Crime Analytics Dashboard</h3>
+                        <p class="project-type">Data • Visualization</p>
+                    </header>
+                    <p>
+                        A modular analytics platform with custom ER design, dashboard simulations, and exportable insights
+                        for policy makers and researchers.
+                    </p>
+                    <footer class="project-footer">
+                        <span class="tech-pill">PostgreSQL</span>
+                        <span class="tech-pill">D3.js</span>
+                        <span class="tech-pill">Flask</span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <h3>Hospital Management Suite</h3>
+                        <p class="project-type">Systems • UX</p>
+                    </header>
+                    <p>
+                        A clean, multilingual hospital information system with modular schema, patient dashboards, and printable reports,
+                        built for clarity and compliance.
+                    </p>
+                    <footer class="project-footer">
+                        <span class="tech-pill">React</span>
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">MongoDB</span>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="panel" aria-labelledby="contact-title">
+            <header class="panel-header">
+                <h2 id="contact-title">Contact</h2>
+                <p class="panel-tagline">Let’s build something thoughtful and powerful.</p>
+            </header>
+            <article class="panel-body contact-body">
+                <form class="contact-form" action="#" method="post">
+                    <fieldset>
+                        <legend>Send a message</legend>
+
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required>
+
+                        <label for="topic">Topic</label>
+                        <select id="topic" name="topic">
+                            <option value="collaboration">Collaboration</option>
+                            <option value="freelance">Freelance project</option>
+                            <option value="speaking">Speaking / workshop</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </fieldset>
+
+                    <button type="submit" class="btn primary">Send message</button>
+                </form>
+
+                <aside class="contact-aside">
+                    <h3>Elsewhere</h3>
+                    <ul class="contact-links">
+                        <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">Portfolio PDF</a></li>
+                    </ul>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <time datetime="2025">2025</time> Rinu. Crafted with clean code & a hint of anime energy.</p>
+    </footer>
+</body>
+</html>
